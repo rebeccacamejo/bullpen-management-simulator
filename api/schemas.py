@@ -44,7 +44,7 @@ class CandidateOut(BaseModel):
 
     reliever_id: str
     expected_runs: float
-    expected_runs_penalised: float
+    expected_runs_penalized: float
 
 
 class RecommendOut(BaseModel):
