@@ -47,7 +47,7 @@ async def prometheus_middleware(request: Request, call_next: Any) -> Response:
     return response
 
 
-@app.get("/healthz")
+@app.get("/health")
 def healthz() -> dict:
     """Health check endpoint."""
     return {
