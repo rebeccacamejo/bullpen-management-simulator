@@ -2,9 +2,3 @@
 /.ipynb_checkpoints
 /.qodo
 /.venv
-/Makefile
-/README.md
-/bms
-/docker-compose.yml
-/ops
-/ui_streamlit
